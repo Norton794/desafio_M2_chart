@@ -6,7 +6,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
+        <p className={`pl-5 bg-gradient-to-r from-blue-500 to-purple-500
+    text-white`} >
           Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
