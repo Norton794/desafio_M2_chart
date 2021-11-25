@@ -1,0 +1,59 @@
+{
+    "products": [
+        {
+            "id": 1,
+            "name": "Fixo",
+            "price": 49.99,
+            "category":{
+                "categoryId": 1,
+                "categoryName": "Fixo"
+            }
+
+        },
+        {
+            "id": 2,
+            "name": "TV Ultimate HD",
+            "price": 299.99,
+            "category":{
+                "categoryId": 2,
+                "categoryName": "TV"
+            }
+        },
+        {
+            "id": 3,
+            "name": "TV Full HD",
+            "price": 399.99,
+            "category":{
+                "categoryId": 2,
+                "categoryName": "TV"
+            }
+        }, 
+        {
+            "id": 4,
+            "name": "Internet Pacote 100MB",
+            "price": 79.99,
+            "category":{
+                "categoryId": 2,
+                "categoryName": "TV"
+            } 
+        }, 
+        {
+            "id": 5,
+            "name": "Internet Pacote 200MB",
+            "price": 89.99,
+            "category":{
+                "categoryId": 3,
+                "categoryName": "Internet"
+            } 
+        }, 
+        {
+            "id": 6,
+            "name": "Internet Pacote 300MB",
+            "price": 109.99,
+            "category":{
+                "categoryId": 3,
+                "categoryName": "Internet"
+            } 
+        }
+    ]
+}
