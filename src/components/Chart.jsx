@@ -1,5 +1,4 @@
 import React from 'react';
-import {getData} from '../functions/getData';
 export default function Chart(){
 const initialState = {
     chart: [],
@@ -10,7 +9,7 @@ const initialState = {
 }
     return(
         <div>
-        {getData()}
+        
         </div>
     )
 }
