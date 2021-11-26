@@ -1,11 +1,10 @@
-import './App.css';
-
-export default function App() {
+import Chart from './components/Chart'
+function App() {
   return (
-    <div>
-      
+    <div className="App">
+      <Chart/>
     </div>
   );
 }
 
-
+export default App;
