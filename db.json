@@ -1,52 +1,62 @@
 {
     "categories": [
         {
-            "categoryId": 1,
-            "categoryName": "Fixo",
-                "products": [
-                    {
-                        "id": 1,
-                        "name": "Fixo",
-                        "price": 49.99
-                    }
-                ]
-        },
-        {
-            "categoryId": 2,
-            "categoryName": "TV",
+            "id": 1,
+            "category": "Fixo",
             "products": [
                 {
                     "id": 1,
-                    "name": "TV Ultimate HD",
-                    "price": 299.99
-                },
-                {
-                    "id": 2,
-                    "name": "TV Full HD",
-                    "price": 399.99
+                    "name": "Fixo",
+                    "price": 49.99
                 }
             ]
         },
         {
-            "categoryId": 3,
-            "categoryName": "Internet",
+            "id": 2,
+            "category": "TV",
+            "products": [
+                {
+                            "id": 1,
+                            "name": "TV Ultimate HD",
+                            "price": 299.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "TV Full HD",
+                            "price": 399.99
+                        }
+                    ]
+        },
+        {
+            "id": 3,
+            "category": "Internet",
             "products": [
                 {
                     "id": 1,
-                    "name": "Internet Pacote 100MB",
-                    "price": 79.99
+                    "name": "Fixo",
+                    "price": 49.99
                 },
                 {
-                    "id": 2,
-                    "name": "Internet Pacote 200MB",
-                    "price": 89.99
-                },
-                {
-                    "id": 3,
-                    "name": "Internet Pacote 300MB",
-                    "price": 109.99
-                }
+                            "id": 1,
+                            "name": "Internet Pacote 100MB",
+                            "price": 79.99
+                
+                        }, 
+                        {
+                            "id": 2,
+                            "name": "Internet Pacote 200MB",
+                            "price": 89.99
+                            
+                        }, 
+                        {
+                            "id": 3,
+                            "name": "Internet Pacote 300MB",
+                            "price": 109.99
+                            
+                        }
             ]
         }
+
     ]
+  
 }
