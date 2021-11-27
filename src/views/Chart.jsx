@@ -8,10 +8,10 @@ export default function Chart(){
 const categoryOne = useFetch(1);
 const categoryTwo = useFetch(2);
 const categoryThree = useFetch(3);
-    
+   
 
     return(
-        <div>
+        <div className="p-3">
 
         <Categories title="Internet" desc="Selecione um plano de Internet" category={categoryOne} />
 

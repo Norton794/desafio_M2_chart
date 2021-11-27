@@ -1,10 +1,12 @@
-import Chart from "./components/Chart";
+import React from 'react';
+import Store from './context/Store'
+import Chart from "./views/Chart";
 
 
 export default function App() {
   return (
-    <div className="App">
+    <Store>
       <Chart />
-    </div>
+    </Store>
   );
 }
