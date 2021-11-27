@@ -1,41 +1,10 @@
 {
     "categories": [
+
         {
             "id": 1,
-            "category": "Fixo",
-            "products": [
-                {
-                    "id": 1,
-                    "name": "Fixo",
-                    "price": 49.99
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "category": "TV",
-            "products": [
-                {
-                            "id": 1,
-                            "name": "TV Ultimate HD",
-                            "price": 299.99
-                        },
-                        {
-                            "id": 2,
-                            "name": "TV Full HD",
-                            "price": 399.99
-                        }
-                    ]
-        },
-        {
-            "id": 3,
             "category": "Internet",
             "products": [
-                {
-                    "id": 1,
-                    "name": "Fixo",
-                    "price": 49.99
-                },
                 {
                             "id": 1,
                             "name": "Internet Pacote 100MB",
@@ -55,7 +24,36 @@
                             
                         }
             ]
+        },
+        
+        {
+            "id": 2,
+            "category": "TV",
+            "products": [
+                {
+                            "id": 1,
+                            "name": "TV Ultimate HD",
+                            "price": 299.99
+                        },
+                        {
+                            "id": 2,
+                            "name": "TV Full HD",
+                            "price": 399.99
+                        }
+                    ]
+        },
+        {
+            "id": 3,
+            "category": "Fixo",
+            "products": [
+                {
+                    "id": 1,
+                    "name": "Fixo",
+                    "price": 49.99
+                }
+            ]
         }
+       
 
     ]
   
